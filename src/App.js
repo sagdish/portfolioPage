@@ -6,13 +6,14 @@ import Resume from './components/Resume/Resume';
 import Portfolio from './components/Portfolio/Portfolio';
 import ContactUs from './components/ContactUs/ContactUs';
 import Footer from './components/Footer/Footer';
+import resumeData from './resumeData';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Header />
-        <About />
+        <About resumeData={resumeData} />
         <Resume />
         <Portfolio />
         <ContactUs />

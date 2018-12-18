@@ -12,13 +12,13 @@ export default class About extends Component {
             <div className="nine columns main-col">
               <h2>About Me</h2>
               <p>
-              Passionate about new technologies. Trying to keep up with the pace of day by day software development.
+              Passionate about new technologies. Keeping up with the pace of day by day software development.
               </p>
               <div className="row">
                 <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
-                    <span>Sagdi Formanov</span><br />
+                    <span>{this.props.resumeData.name}</span><br />
                     <span>150 Morning Sun Ave<br />
                       Mill Valley, CA 94941 US
                     </span><br />
