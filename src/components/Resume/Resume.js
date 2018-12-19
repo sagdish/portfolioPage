@@ -48,12 +48,12 @@ export default class Resume extends Component {
           <h1><span>Skills</span></h1>
         </div>
         <div className="nine columns main-col">
-          <p className="info">
+          <div className="info">
             <h4>
             JavaScript<br/> - Node.js  - React.js -  Responsive - Web Design - Front-end Development -
             User Experience - MongoDB - HTTP/AJAX
             </h4>
-          </p>
+          </div>
 
         </div> {/* main-col end */}
       </div>
