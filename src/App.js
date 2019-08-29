@@ -8,7 +8,6 @@ import Resume from './components/Resume/Resume';
 import ContactUs from './components/ContactUs/ContactUs';
 import Footer from './components/Footer/Footer';
 import resumeData from './resumeData';
-import Special from './components/Special/Special';
 
 class App extends Component {
   render() {
@@ -16,14 +15,13 @@ class App extends Component {
         <div className="App">
           <Router>
             <Switch>
-              <Route path='/special' component={ Special } />
-              <div>
+              <>
                 <Header />
                 <About resumeData={resumeData} />
                 <Resume />
                 <ContactUs />
                 <Footer />
-              </div>
+              </>
             </Switch>
           </Router>
         </div>
